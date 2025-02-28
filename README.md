@@ -30,9 +30,8 @@ Task1/
 
 ### Installation and Running
 
-1. Downlad this folder on GoogleDrive
-2. Install dependencies by running the following command: npm install
-3. Start the development server by running the following command: npm start 
-4. Open your browser to http://localhost:3000 to view the calendar component.
-5. Build the project by running the following command: npm run build
+1. Install dependencies by running the following command: npm install
+2. Start the development server by running the following command: npm start 
+3. Open your browser to http://localhost:3000 to view the calendar component.
+4. Build the project by running the following command: npm run build
 
