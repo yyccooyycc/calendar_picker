@@ -1,0 +1,43 @@
+.date-picker {
+  position: relative;
+  display: inline-block;
+
+  .input-container {
+    position: relative;
+    display: inline-block;
+
+    input {
+      width: 105px;
+      padding-left: 2rem;
+      padding-right: 1rem;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .calendar-icon {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      color: #888;
+      cursor: pointer;
+
+      &:hover {
+        color: #333
+      }
+    }
+
+    .calendar-dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 10;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 4px;
+    }
+  }
+}
