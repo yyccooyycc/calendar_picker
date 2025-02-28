@@ -1,4 +1,4 @@
-### Task2 Overview
+### Data Picker Practice with React and Redux
 
 This task implements a date picker component with a calendar dropdown. The user can view the calendar in month, year, or day view, and select a date. The application is built with **React**, **Redux**, and **Webpack**, and supports features such as date selection, month/year switching, and highlighting today’s date.
 
