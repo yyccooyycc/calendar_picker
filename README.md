@@ -2,31 +2,28 @@
 
 This task implements a date picker component with a calendar dropdown. The user can view the calendar in month, year, or day view, and select a date. The application is built with **React**, **Redux**, and **Webpack**, and supports features such as date selection, month/year switching, and highlighting today’s date.
 
-### Content Structure:
+## Content Structure
 
+```text
 Task1/
-│
-├──src/
-├   ├───components/
-│   │   ├── DatePicker.js         
-│   │   ├── Calendar.js  
-│   ├── store/             
+├── src/
+│   ├── components/
+│   │   ├── DatePicker.js
+│   │   ├── Calendar.js
+│   ├── store/
 │   │   ├── dateSlice.js
-│   │   ├── calendarSlice.js    
-│   ├── styles/           
+│   │   ├── calendarSlice.js
+│   ├── styles/
 │   │   ├── date-picker.scss
 │   │   ├── calendar.scss
 │   ├── utils/
-│   │   ├── dateUtils.js       
-│   ├── index.js             
-│
+│   │   ├── dateUtils.js
+│   ├── index.js
 ├── public/
-│   ├── index.html         
-│
-├── webpack.config.js      
-├── package.json           
-└── README.md              
-
+│   ├── index.html
+├── webpack.config.js
+├── package.json
+└── README.md
 
 ### Installation and Running
 
